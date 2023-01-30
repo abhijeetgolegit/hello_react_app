@@ -3,5 +3,5 @@ FROM node:18-alpine
 WORKDIR ./
 COPY . .
 RUN npm install
-CMD ["node", "src/index.js"]
+CMD ["npm start"]
 EXPOSE 3006
